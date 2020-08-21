@@ -1,0 +1,8 @@
+i2cStart	KEYWORD2	//use i2cStart to begin wire library
+GetTempF	KEYWORD2	//then call one of these functions to get a value
+GetTempC	KEYWORD2
+GetHumid	KEYWORD2
+GetTempHighByte	KEYWORD2
+GetTempLowByte	KEYWORD2
+GetHumidHighByte	KEYWORD2
+GetHumidLowByte	KEYWORD2
