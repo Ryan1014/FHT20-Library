@@ -42,7 +42,6 @@ void i2cStart(){
             delay(1);
             St = (hiByte<<8) | (loByte);   // combine the high and low bytes into a 16 bit word
             temperature = ((175.72*St)/65536)-46.85; // do some math on that word to get degrees in F
-            temperature = ((175.72*St)/65536)-46.85;
             temperature = ((temperature/5)*9)+32;
             
         }
